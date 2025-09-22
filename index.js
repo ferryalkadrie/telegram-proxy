@@ -3,8 +3,8 @@ const fetch = require("node-fetch");
 const app = express();
 
 // ==== DATA TELEGRAM KAMU ====
-const TOKEN = "8341029959:AAFL1iu09ie48aWpyUS_mLaUudznqfpJFZ4";
-const CHAT_ID = "684263234";
+const TOKEN = "aWpyUS_mLaUudznqfpJFZ4";
+const CHAT_ID = "234";
 
 // ==== ENDPOINT KIRIM PESAN ====
 app.get("/send", async (req, res) => {
